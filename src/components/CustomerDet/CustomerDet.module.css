@@ -1,0 +1,61 @@
+.Cdata {
+    /* border:2px solid green; */
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.chooseBtn {
+    border: 2px solid #2786ec;
+    height: 3em;
+    width: 10em;
+    border-radius: 4px;
+}
+
+.addBtn {
+    border: 2px solid #67a4e4;
+    color: white;
+    background: #2786ec;
+    border-radius: 4px;
+}
+
+.span {
+    padding-right: 0.5em;
+}
+
+input {
+    border: 1px solid grey;
+    height: 1.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:580px) {
+    .Cdata {
+
+
+        flex-wrap: wrap;
+    }
+
+    input {
+        border: 1px solid grey;
+        height: 1.8em;
+        border-radius: 4px;
+        width: 20em;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+
+    .addBtn {
+        margin-top: 5%;
+        height: 2.2em;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width:472px) {
+    .addBtn {
+        margin-right: 2%;
+    }
+}

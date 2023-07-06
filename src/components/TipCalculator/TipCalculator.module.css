@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3rem 3rem;
+    margin: 0.7rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.wide {
+    padding: 0em;
+}
+
+.calcBtn {
+    display: block;
+    background: rgb(45, 196, 45);
+    border: none;
+    border-radius: .3rem;
+    color: #fff;
+    margin: auto;
+    font-weight: 700;
+    height: 2.5em;
+}
